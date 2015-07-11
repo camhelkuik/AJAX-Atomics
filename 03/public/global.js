@@ -14,7 +14,7 @@ var myLink = document.getElementById("clicker");
 
 var handleTheClick = function(event){
   // ?????????
-  
+
   // Prevent the link from refreshing the DOM.
   event.preventDefault();
 }
