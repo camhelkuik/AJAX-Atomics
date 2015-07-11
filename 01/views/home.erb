@@ -1,3 +1,12 @@
 <h1>AJAX Atomics - 01</h1>
 
 <script type="text/javascript" src="/global.js"></script>
+
+<h2>Why are you able to make requests to /info1 and /info2 even though there are no route handlers for those paths defined in app.rb?</h2>
+<p>I am able to make requests because we are using an XHR object that when you call .open on that object you essentially create a route handler to where ever you want.</p>
+
+<h2>Why is the XHR object's request path /info1 instead of /public/info1?</h2>
+<p>We can use just the / because it is in the same folder as the Javascript file.</p>
+
+<h2>Within the addEventListener function, what does this represent?</h2>
+<p>This is refering to the DOM element that it is hearing the event for. </p>
